@@ -15,7 +15,7 @@ public class Main {
 		usuario.setIsAtivo(true);
 		
 		controller.cadastrar(usuario);
-		controller.listarTodos();
+		
 		
 	}
 
