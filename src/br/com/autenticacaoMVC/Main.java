@@ -8,15 +8,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		UsuarioController controller = new UsuarioController();
-		Usuario usuario = new Usuario();
-		usuario.setNome("Harry");
-		usuario.setEmail("harry@proway.com.br");
-		usuario.setSenha("Harry123");
-		usuario.setIsAtivo(true);
+//		Usuario usuario = new Usuario();
+//		usuario.setNome("Harry");
+//		usuario.setEmail("harry@proway.com.br");
+//		usuario.setSenha("Harry123");
+//		usuario.setIsAtivo(true);
+//		
+//		controller.cadastrar(usuario);
 		
-		controller.cadastrar(usuario);
+		String email = "jaine.rosa_11@live.com";
+		String senha = "jaine123";
 		
-		
+		controller.autenticar(email, senha);
 	}
 
 }
